@@ -110,9 +110,10 @@ p {
 }
 
 #press {
-    background-color: #F85F73;
+    /* background-color: #F85F73; */
+    background-color: #FFFDF9;
     text-align: center;
-    padding-top: 1;
+    /* padding-top: 1; */
     padding-bottom: 1%;
     margin-top: 1%;
 }
@@ -130,7 +131,9 @@ p {
 
 #pricing {
     padding: 100px;
+    /* color: #fff; */
     text-align: center;
+    /* background-color: #F85F73; */
 }
 
 .pricing-column {
