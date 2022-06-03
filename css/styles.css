@@ -57,7 +57,7 @@ p {
     font-family: "Montserrat-Light";
 }
 
-.download-buttons {
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
@@ -109,6 +109,11 @@ p {
     /* align-items: center; */
 }
 
+/* .carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+    color: #ff4c68;
+} */
+
 #press {
     /* background-color: #F85F73; */
     background-color: #FFFDF9;
@@ -130,12 +135,58 @@ p {
 /* Pricing Section */
 
 #pricing {
-    padding: 100px;
+    padding: 35px;
     /* color: #fff; */
     text-align: center;
-    /* background-color: #F85F73; */
+    background-color: #F85F73;
+    /* color: white; */
+}
+
+.pricing-heading,
+.pricing-footer {
+    color: white;
 }
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+.btn:hover {
+    color: #ff4c68;
+}
+
+
+/* CTA section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    margin-top: 0;
+}
+
+.cta-text {
+    font-family: "Montserrat-Black";
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#footer {
+    background-color: #FFFDF9;
+    /* padding-top:10rem; */
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
 }
