@@ -177,7 +177,7 @@ p {
 
 #footer {
     background-color: #FFFDF9;
-    padding: 7% 15%;
+    padding: 1% 15%;
     text-align: center;
 }
 
@@ -186,10 +186,11 @@ p {
 }
 
 @media (max-width: 1028px) {
-    
+
     #title {
         text-align: center;
     }
+
     .title-image {
         position: static;
         transform: rotate(0);
